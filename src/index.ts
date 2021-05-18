@@ -1,4 +1,8 @@
-const num:number = 0
-const text = 'dasda'
+import * as express from 'express'
 
-console.log(num, text);
+const app = express()
+const port = 5000
+app.get('/', (request, response) => {
+  response.send('Hello world!')
+})
+app.listen(port, () => console.log(`Running on port ${port}`))
