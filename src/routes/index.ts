@@ -1,0 +1,1 @@
+export const mami = 'loli'

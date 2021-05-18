@@ -10,9 +10,13 @@
     "declaration": false,
     "outDir": "dist/",
     "rootDir": "src/",
+    "baseUrl": "src",
     "lib": [
       "es2017"
-    ]
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
   },
   "include": [
     "src/**/*"
